@@ -39,7 +39,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: ""  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+- icon: instagram
   icon_pack: fab
   link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
@@ -64,4 +64,4 @@ user_groups:
 - Visitors
 ---
 
-I am a undergraduate student at Department of Automation at Shanghai Jiao Tong University. My research interests include digital image processing, computer vision and machine learning. 
+I am an undergraduate student at Department of Automation at Shanghai Jiao Tong University. My research interests include digital image processing, computer vision and machine learning. 
