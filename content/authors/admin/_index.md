@@ -42,9 +42,6 @@ social:
 - icon: instagram
   icon_pack: fab
   link: https://www.instagram.com/y.lin0/
-<!-- - icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ -->
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/linyang1208
