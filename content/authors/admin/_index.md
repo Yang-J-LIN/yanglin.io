@@ -29,7 +29,7 @@ education:
   courses:
   - course: BSc in Automation
     institution: Shanghai Jiao Tong University
-    year: 2016
+    year: 2020(expected)
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
