@@ -4,10 +4,10 @@ name: Yang LIN
 
 # Username (this should match the folder name)
 authors:
-- Yang LIN
+- admin
 
 # Is this the primary user of the site?
-superuser: false
+superuser: true
 
 # Role/position
 role: Undergraduate at Dept. of Automation
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: The fate of our times is characterized by rationalization and intellectualization and, above all, by the disenchantment of the world.
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
 - Image Processing
