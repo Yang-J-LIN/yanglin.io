@@ -46,4 +46,4 @@ The first time when I entered my address and the browser popped up my homepage, 
 
 I'd like to write some posts on it. It can serve as a blog to record something I've learned, and can also "break" some news about me(I hope there is at least one news a year :-) ).
 
-That'all. Thank you for your contribution to the hits of this webiste. :-)
+That's all. Thank you for your contribution to the hits of this webiste. :-)
