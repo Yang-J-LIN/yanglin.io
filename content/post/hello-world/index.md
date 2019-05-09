@@ -3,7 +3,7 @@ title = "Hello World"
 subtitle = ""
 
 # Add a summary to display on homepage (optional).
-summary = "This is a test for the post function of this template."
+summary = ""
 
 date = 2019-05-09T22:30:00+08:00
 draft = false
@@ -15,7 +15,7 @@ authors = ["admin"]
 featured = false
 
 # Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
+# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.z
 tags = []
 categories = ["News"]
 
