@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Undergraduate at Dept. of Automation
+role: Undergraduate
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: The fate of our times is characterized by rationalization and intellectualization and, above all, by the disenchantment of the world.
 
 interests:
 - Image Processing
