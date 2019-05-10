@@ -38,7 +38,7 @@ categories = ["News"]
   focal_point = ""
 +++
 
-Hello everyone! After two days of struggle, I finally depolyed this website well. All the information on the site has been updated and some of the previous sections have been removed. Even though some modules are still under exploration, I can barely announce that my homepage is officially online.
+Hello everyone! After two days of struggle, I finally deployed this website well. All the information on the site has been updated and some of the previous sections have been removed. Even though some modules are still under exploration, I can barely announce that my homepage is officially online.
 
 It's a memorable experience for me to build this website. I bought my own domain(It really took me a long time. I was always tangled in which top level domain to use.), chose where I should deploy the website and explored the features and usages of the template. I learned a lot from it.
 
