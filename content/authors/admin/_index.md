@@ -45,6 +45,9 @@ social:
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/linyang1208
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/YangLin84949555
 - icon: github
   icon_pack: fab
   link: https://github.com/Yang-J-LIN
