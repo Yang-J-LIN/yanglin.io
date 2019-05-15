@@ -39,9 +39,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:yang.jie.lin1208@gmail.com"  # For a direct email link, use "mailto:test@example.org".
-- icon: instagram
-  icon_pack: fab
-  link: https://www.instagram.com/y.lin0/
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/linyang1208
