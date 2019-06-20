@@ -39,3 +39,7 @@ categories = ["News"]
 +++
 
 This summer I am going to visit the Herbert Wertheim College of Engineering at the University of Florida as a Student Intern in the Department of Electrical & Computer Engineering. I will collabrate with Dr. Dapeng Wu to do research on machine learning and computer vision.
+
+Some cultural activities may be included. During the intern, visit to Universal Studios and Disneyland in Orlando will be also organized. I'm looking forward to a beautiful summer of Florida.
+
+I believe I will have a wonderful summer at UF.
