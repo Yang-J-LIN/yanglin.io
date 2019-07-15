@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Gainseville"
   date_start = "2019-07-16"
-  date_end = "2"
+  date_end = ""
   description = """
   Work on natural language processing.
   """
