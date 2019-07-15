@@ -17,6 +17,18 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Student Intern"
+  company = "University of Florida"
+  company_url = ""
+  location = "Gainseville"
+  date_start = "2019-07-16"
+  date_end = "2"
+  description = """
+  Work on natural language processing.
+  """
+
 [[experience]]
   title = "Intern"
   company = "Jianchen InfoTech Co., Ltd."
