@@ -64,4 +64,4 @@ user_groups:
 - Visitors
 ---
 
-I am an undergraduate student at Department of Automation at Shanghai Jiao Tong University. My research interests include digital image processing, computer vision and machine learning. 
+I am an undergraduate student at Department of Automation at Shanghai Jiao Tong University. My research interests include digital image processing, computer vision and machine learning. Now I am working as a student intern in University of Florida under the direction of Dr. Dapeng Wu. My current research focuses on natural language processing, and more specifically, the similarity measure of texts.
