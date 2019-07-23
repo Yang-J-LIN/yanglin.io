@@ -24,7 +24,7 @@ title = "What I live for"
   # gradient_end = "#2b94c3"
   
   # Background image.
-image = "static/img/Bertrandrussell.jpeg"  # Name of image in `static/img/`.
+image = "Bertrandrussell.jpeg"  # Name of image in `static/img/`.
 image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
