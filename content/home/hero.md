@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "What I live for"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "hero-academic.png"
+# hero_media = "hero-academic.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -25,7 +25,7 @@ hero_media = "hero-academic.png"
   
   # Background image.
 image = "static/img/Bertrandrussell.jpeg"  # Name of image in `static/img/`.
-image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+# image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   text_color_light = true
@@ -35,12 +35,8 @@ image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 i
 #   Remove a link/note by deleting a cta/note block.
 
 # Note. An optional note to show underneath the links.
-#[cta_note]
-#  label = '<a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release <!-- V --></a>'
 +++
 
 Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.
 
 *Bertrand Russell*
-
-# <span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
