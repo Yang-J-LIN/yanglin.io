@@ -20,8 +20,8 @@ title = "What I live for"
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "#4bb4e3"
-  gradient_end = "#2b94c3"
+  # gradient_start = "#4bb4e3"
+  # gradient_end = "#2b94c3"
   
   # Background image.
 image = "static/img/Bertrandrussell.jpeg"  # Name of image in `static/img/`.
