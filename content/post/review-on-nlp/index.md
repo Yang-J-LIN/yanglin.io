@@ -38,16 +38,18 @@ categories = ["Blog"]
   focal_point = ""
 +++
 
+{{% toc %}}
+
+# Introduction
+
 Natural language processing is highly related to theoretical linguistics. This review aims to provide an overview of state-of-the-arts in the field of NLP under the categories in linguistics, through which I want to point out the meanings of our work.
 
 This work is always going to be continued, and I will update it with the expansion of my knowledge in this field. It may perform incomplete at start. I will try my best to complete it!
 
-{{% toc %}}
+# Tasks of Natural Language Processing
 
-# Introduction
 The fields that are generally considered the core of theoretical linguistics are **phonology**, **phonetics**, **morphology**, **syntax**, and **semantics**.
 
-# Tasks of Natural Language Processing
 ## Phonology
 
 ## Phonetics
