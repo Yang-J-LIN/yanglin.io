@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_start = "2019-07-16"
   date_end = ""
   description = """
-  Work on natural language processing.
+  Collabrate with [Dr. Dapeng Wu](http://www.wu.ece.ufl.edu/) and Dr. Haotian Jiang, working on natural language processing. We are going to design a question-answering system based on similarity principle between parsing tree and parsing tree.
   """
 
 [[experience]]
