@@ -6,7 +6,7 @@ subtitle = "A Linguistic Perpective"
 summary = ""
 
 date = 2019-07-26T17:23:24-04:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["admin"]
@@ -42,5 +42,26 @@ Natural language processing is highly related to theoretical linguistics. This r
 
 This work is always going to be continued, and I will update it with the expansion of my knowledge in this field. It may perform incomplete at start. I will try my best to complete it!
 
+{{% toc %}}
+
 # Introduction
 The fields that are generally considered the core of theoretical linguistics are **phonology**, **phonetics**, **morphology**, **syntax**, and **semantics**.
+
+# Tasks of Natural Language Processing
+## Phonology
+
+## Phonetics
+
+## Morphology
+
+### Neural Networks for Morphology
+
+(Minh-Thang Luong *et al*, 2013) employs recursive neural network(RNN) and neural language model(NLM) to construct word vectors for unseen complex words. Two models are proposed. One is called context-insensitive morphological RNN(cimRNN). Another is called context-sensitive morphological RNN(csmRNN).
+
+## Syntax
+
+## Semantics
+
+# Methods of Natural Language Processing
+
+## Recursive Neural Network
