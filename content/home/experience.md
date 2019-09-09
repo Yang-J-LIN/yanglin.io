@@ -18,8 +18,20 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+
 [[experience]]
-  title = "Student Intern"
+  title = "Research Intern"
+  company = "Lab of Pattern Recognition and Bioinformatics"
+  company_url = "www.csbio.sjtu.edu.cn"
+  location = "Shanghai"
+  date_start = "2019-07-16"
+  date_end = ""
+  description = """
+  Works on subcellular location prediction of long non-encoding RNAs. Advisor: Dr. Hongbin Shen and Dr. Xiaoyong Pan.
+  """
+
+[[experience]]
+  title = "Research Intern"
   company = "University of Florida"
   company_url = ""
   location = "Gainseville"
@@ -30,7 +42,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Intern"
+  title = "Company Intern"
   company = "Jianchen InfoTech Co., Ltd."
   company_url = ""
   location = "Shanghai"
@@ -45,12 +57,12 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Undergraduate"
-  company = "Shanghai Jiao Tong University"
+  title = "Research Intern"
+  company = "Institute of Pattern Recognition and Image Processing"
   company_url = ""
   location = "Shanghai"
-  date_start = "2016-09-01"
-  date_end = ""
-  description = """Study at Dept. of Automation."""
+  date_start = "2017-12-01"
+  date_end = "2018-02-01"
+  description = """Focused on image processing, especially medical image processing. Contributed in a software which aims to obtain the karayotype from microscopic chromosome images. Advisor: Dr. Jie Yang"""
 
 +++
