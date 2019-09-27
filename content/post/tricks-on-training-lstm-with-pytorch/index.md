@@ -40,13 +40,63 @@ categories = ["Blog"]
 
 Training LSTM is not a easy thing for beginner in this field. There are a lot of tricks in choosing the most appropriate hyperparameters and structures, which has to be learned from a lot of experience. In this article, I'd love to share some tricks that I summarized from my experience and docs on the Internet.
 
-# Dealing with varibale-length sequence
-Variable-length sequence can sometimes be very annoying, especially when we want to apply minibatch to accelerate the training. Fortunately, PyTorch has prepared a bunch of tools to facilitate it. You can find two useful functions in `torch.nn.utils.rnn` -- `pack_sequence` and `pad_packed_sequence()`. The former takes a list as the input, which contains the sequence you want to feed the LSTM, and it returns a PackedSequence (Refer to the docs of `torch.nn.utils.rnn` for details). The latter takes a PackedSequence as the input, and returns a padded tensor.
+## Dealing with varibale-length sequence
 
-Here are the prototypes of these two functions:
+### Minibatch
+Variable-length sequence can sometimes be very annoying, especially when we want to apply minibatch to accelerate the training. Fortunately, PyTorch has prepared a bunch of tools to facilitate it. You can find two useful functions in `torch.nn.utils.rnn` -- `pack_sequence()` and `pad_packed_sequence()`. Here are the prototypes of these two functions:
 ```python
 pack_sequence(sequences, enforce_sorted=True)
 ```
+`pack_sequence()` takes a list as the input, which contains the sequence you want to feed the LSTM, and it returns a PackedSequence (Refer to the docs of `torch.nn.utils.rnn` for details).
 ```python
 pad_packed_sequence(sequence, batch_first=False, padding_value=0.0, total_length=None)
+```
+`pad_packed_sequence()` takes a PackedSequence as the input, and returns a padded tensor.
+
+Here is an example.
+```python
+>>> import torch
+>>> from torch.nn.utils.rnn import pack_sequence
+>>> from torch.nn.utils.rnn import pad_packed_sequence
+>>> a = torch.tensor([1, 2, 3])
+>>> b = torch.tensor([1, 2, 3, 4])
+>>> c = torch.tensor([1, 2, 3, 4, 5])
+>>> packed_sequence = pack_sequence([a, b, c], enforce_sorted=False)
+>>> print(packed_sequence)
+PackedSequence(data=tensor([1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5]), batch_sizes=tensor([3, 3, 3, 2, 1]), sorted_indices=tensor([2, 1, 0]), unsorted_indices=tensor([2, 1, 0]))
+>>> sequence = pad_packed_sequence(packed_sequence)
+>>> print(sequence)
+(tensor([[1, 1, 1],
+        [2, 2, 2],
+        [3, 3, 3],
+        [0, 4, 4],
+        [0, 0, 5]]), tensor([3, 4, 5]))
+```
+They also work well for high-dimension inputs, such as the sentence represention after embedding.
+These functions are really conveinent. You just need to place `pack_sequence()` before your LSTM and `pad_packed_sequence` after your LSTM. Here is part of implementation of my BiLSTM:
+```python
+embed = [self.embed(i) for i in x]
+packed_embed = pack_sequence(embed, enforce_sorted=False)
+bilstm_out, _ = self.bilstm(packed_embed)
+bilstm_out, _ = pad_packed_sequence(bilstm_out)
+```
+### Special Notes for Dropout
+Dropout cannot take a `PackedSequence` as the inputs, so you are supposed to dropout your inputs before they are packed to be `PackedSequence`. I achieve this goal by this:
+```python
+# In __init__(self) of your self-defined LSTM class
+self.dropout = nn.Dropout(p=0.5)
+
+# In forward(self, x) of your self-defined LSTM class
+embed = [self.dropout(self.embed(i)) for i in x]
+packed_embed = pack_sequence(embed, enforce_sorted=False)
+bilstm_out, _ = self.bilstm(packed_embed)
+bilstm_out, _ = pad_packed_sequence(bilstm_out)
+```
+However, I think this operation will slow down the process, since the operation of `list` is in CPU.
+
+### Get the Output of last nodes
+After observing the output in the example of *Minibatch*, we can find that it's not easy to get the final output of LSTM. If you just index by -1, you will get a lot of ZEROs, which are added by the padding. Here is a resolution I find on StackOverflow:
+```python
+indexes = [len(i) - 1 for i in x]  # x is the input, which is a list contains sentence embeddings in a batch
+bilstm_out = bilstm_out[indexes, range(bilstm_out.shape[1]), :]
 ```
