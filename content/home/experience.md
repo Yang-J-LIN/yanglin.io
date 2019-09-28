@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   date_start = "2019-09-10"
   date_end = ""
   description = """
-  Works on subcellular location prediction of long non-encoding RNAs. Advisor: Dr. Hongbin Shen and Dr. Xiaoyong Pan.
+  Work on subcellular location prediction of long non-coding RNAs. We employ some new deep learning method such as BERT and Transformer to design an end-to-end subcellular location classifier for lncRNAs, and try to find some undiscovered features through the interpretation of our neural networks. Advisor: Dr. Hongbin Shen and Dr. Xiaoyong Pan.
   """
 
 [[experience]]
@@ -38,22 +38,7 @@ date_format = "Jan 2006"
   date_start = "2019-07-16"
   date_end = "2019-08-23"
   description = """
-  Collabrate with [Dr. Dapeng Wu](http://www.wu.ece.ufl.edu/) and Dr. Haotian Jiang, working on natural language processing. We are going to design a question-answering system based on similarity principle between parsing tree and parsing tree.
-  """
-
-[[experience]]
-  title = "Company Intern"
-  company = "Jianchen InfoTech Co., Ltd."
-  company_url = ""
-  location = "Shanghai"
-  date_start = "2019-03-01"
-  date_end = "2019-05-31"
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  Collabrated with [Dr. Dapeng Wu](http://www.wu.ece.ufl.edu/) and Dr. Haotian Jiang, working on natural language processing. We improved Tree-LSTM to design a more powerful question-answering system based on similarity principle between parsing tree and parsing tree.
   """
 
 [[experience]]
@@ -63,6 +48,6 @@ date_format = "Jan 2006"
   location = "Shanghai"
   date_start = "2017-12-01"
   date_end = "2018-02-01"
-  description = """Focused on image processing, especially medical image processing. Contributed in a software which aims to obtain the karayotype from microscopic chromosome images. Advisor: Dr. Jie Yang"""
+  description = """Focused on image processing, especially medical image processing. Contributed in a software which aims to obtain the karayotype from microscopic chromosome images. Advisor: [Dr. Jie Yang](http://www.pami.sjtu.edu.cn/jieyang)"""
 
 +++
