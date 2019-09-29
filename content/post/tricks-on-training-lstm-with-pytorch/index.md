@@ -40,7 +40,7 @@ categories = ["Blog"]
 
 Training LSTM is not a easy thing for beginner in this field. There are a lot of tricks in choosing the most appropriate hyperparameters and structures, which has to be learned from a lot of experience. In this article, I'd love to share some tricks that I summarized from my experience and docs on the Internet.
 
-## Dealing with varibale-length sequence
+## Dealing with variable-length sequence
 
 ### Minibatch
 Variable-length sequence can sometimes be very annoying, especially when we want to apply minibatch to accelerate the training. Fortunately, PyTorch has prepared a bunch of tools to facilitate it. You can find two useful functions in `torch.nn.utils.rnn` -- `pack_sequence()` and `pad_packed_sequence()`. Here are the prototypes of these two functions:
