@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Yang LIN
+name: Lin, Yang
 
 # Username (this should match the folder name)
 authors:
@@ -38,7 +38,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:yang.jie.lin1208@gmail.com"  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:weberjlam@gmail.com"  # For a direct email link, use "mailto:test@example.org".
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/linyang1208
@@ -55,7 +55,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "weberjlam@gmail.com"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
