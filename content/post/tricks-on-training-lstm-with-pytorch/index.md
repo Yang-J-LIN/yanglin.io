@@ -1,6 +1,6 @@
 +++
 title = "Tricks on training LSTM with Pytorch"
-subtitle = "Especially for varibale-length long sequences"
+subtitle = "Especially for variable-length long sequences"
 
 # Add a summary to display on homepage (optional).
 summary = "Training LSTM is not a easy thing for beginner in this field. There are a lot of tricks in choosing the most appropriate hyperparameters and structures, which has to be learned from a lot of experience. In this article, I'd love to share some tricks that I summarized from my experience and docs on the Internet."
