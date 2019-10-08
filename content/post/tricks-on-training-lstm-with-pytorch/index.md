@@ -100,3 +100,9 @@ After observing the output in the example of *Minibatch*, we can find that it's 
 indexes = [len(i) - 1 for i in x]  # x is the input, which is a list contains sentence embeddings in a batch
 bilstm_out = bilstm_out[indexes, range(bilstm_out.shape[1]), :]
 ```
+And there is another way to achieve so:
+```python
+indexes = torch.tensor([len(i) - 1 for i in x]).to(torch.long)
+indexes = indexes.unsqueeze(0)
+bilstm_out = bilstm_out.gather(0, indexes).squeeze(0)
+```
