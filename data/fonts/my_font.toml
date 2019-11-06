@@ -7,9 +7,9 @@ google_fonts = "Cinzel:700|Crimson+Text|EB+Garamond:600"
 # Font families
 heading_font = "EB Garamond"
 body_font = "Crimson Text"
-nav_font = "Crimson Text"
+nav_font = "Cinzel"
 mono_font = "Cinzel"
 
 # Font size
-font_size = "20"
-font_size_small = "16"
+font_size = "24"
+font_size_small = "20"
