@@ -2,11 +2,11 @@
 name = "my_font"
 
 # Optional Google font URL
-google_fonts = "Cinzel:700|Cormorant+Garamond:600|EB+Garamond:600"
+google_fonts = "Cardo|Cinzel:700|EB+Garamond:600|Vollkorn"
 
 # Font families
 heading_font = "EB Garamond"
-body_font = "Cormorant Garamond"
+body_font = "Cardo"
 nav_font = "Cinzel"
 mono_font = "Cinzel"
 
