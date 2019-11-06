@@ -1,0 +1,15 @@
+# Font style metadata
+name = "my_font"
+
+# Optional Google font URL
+google_fonts = "Crimson+Text|Quicksand|Raleway"
+
+# Font families
+heading_font = "Quicksand"
+body_font = "Crimson Text"
+nav_font = "Crimson Text"
+mono_font = "Raleway"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

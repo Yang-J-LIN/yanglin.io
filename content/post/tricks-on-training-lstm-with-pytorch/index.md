@@ -106,3 +106,6 @@ indexes = torch.tensor([len(i) - 1 for i in x]).to(torch.long)
 indexes = indexes.unsqueeze(0)
 bilstm_out = bilstm_out.gather(0, indexes).squeeze(0)
 ```
+
+## Initialization
+
