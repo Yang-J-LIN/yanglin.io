@@ -1,6 +1,6 @@
 ---
 title: lncLocator v2.0
-summary: *lncLocator v2.0* is a predictor of the subcellular location of lncRNA based its sequence.
+summary: A predictor of the subcellular location of lncRNA based its sequence.
 tags:
 - Bioinformatics
 date: "2019-11-07T00:00:00Z"
