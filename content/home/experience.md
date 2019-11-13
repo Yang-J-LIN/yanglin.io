@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   date_start = "2019-09-10"
   date_end = ""
   description = """
-  Work on subcellular location prediction of long non-coding RNAs. We employ some new deep learning method such as BERT and Transformer to design an end-to-end subcellular location classifier for lncRNAs, and try to find some undiscovered features through the interpretation of our neural networks. Advisor: Dr. Hongbin Shen and Dr. Xiaoyong Pan.
+  Work on subcellular location prediction of long non-coding RNAs. We employ some new deep learning method such as BERT and Transformer to design an end-to-end subcellular location classifier for lncRNAs, and try to find some undiscovered features through the interpretation of our neural networks. Advisor: Dr. Hongbin Shen and [Dr. Xiaoyong Pan](https://xypan1232.github.io/).
   """
 
 [[experience]]
@@ -47,7 +47,7 @@ date_format = "Jan 2006"
   company_url = "https://pami.sjtu.edu.cn"
   location = "Shanghai"
   date_start = "2017-12-01"
-  date_end = "2018-02-01"
+  date_end = "2019-02-01"
   description = """Focused on image processing, especially medical image processing. Contributed in a software which aims to obtain the karayotype from microscopic chromosome images. Advisor: [Dr. Jie Yang](http://www.pami.sjtu.edu.cn/jieyang)"""
 
 +++
