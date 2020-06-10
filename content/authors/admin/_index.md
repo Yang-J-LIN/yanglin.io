@@ -38,13 +38,13 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:weberjlam@gmail.com"  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:yang.lin@epfl.ch"  # For a direct email link, use "mailto:test@example.org".
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/linyang1208
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/YangLin84949555
+  link: https://twitter.com/yangjlin
 - icon: github
   icon_pack: fab
   link: https://github.com/Yang-J-LIN

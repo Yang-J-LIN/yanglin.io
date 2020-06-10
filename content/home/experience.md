@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   date_start = "2019-09-10"
   date_end = ""
   description = """
-  Work on subcellular location prediction of long non-coding RNAs. We employ some new deep learning method such as BERT and Transformer to design an end-to-end subcellular location classifier for lncRNAs, and try to find some undiscovered features through the interpretation of our neural networks. Advisor: Dr. Hongbin Shen and [Dr. Xiaoyong Pan](https://xypan1232.github.io/).
+  Work on subcellular location prediction of long non-coding RNAs. We employ some new deep learning method such as BERT and Transformer to design an end-to-end subcellular location classifier for lncRNAs, and try to find some undiscovered features through the interpretation of our neural networks. Advisor: Dr. Hong-Bin Shen and [Dr. Xiaoyong Pan](https://xypan1232.github.io/).
   """
 
 [[experience]]
