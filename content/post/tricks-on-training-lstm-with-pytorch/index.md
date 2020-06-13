@@ -109,11 +109,11 @@ bilstm_out = bilstm_out.gather(0, indexes).squeeze(0)
 
 ## Initialization
 
-A lot of literature point out that the initialization has huge impact on the performance of LSTM. For the implementation in Pytorch, there are three set of parameters for 1-layer LSTM, which are `weight_ih_l0`, `weight_hh_l0`, `bias_ih_l0`, `bias_hh_l0`. Pytorch initializes them with a Gaussian distribution, but that's usually not the best initialization. Pytorch has implemented a set of initialization methods. They could be found [here](https://pytorch.org/docs/stable/nn.init.html). For LSTM, it is recommended to use `nn.init.orthogonal_()` to initialize weights, to use `nn.init.zeros_()` to initialize all the biases except that of the forget gates, and to use `nn.init.zeros_()` to initialize the bias of forget gates. To initialize the bias of forget gates will help LSTM learn long-term dependency.
+A lot of literature point out that the initialization has huge impact on the performance of LSTM. For the implementation in Pytorch, there are three set of parameters for 1-layer LSTM, which are `weight_ih_l0`, `weight_hh_l0`, `bias_ih_l0` and `bias_hh_l0`. Pytorch initializes them with a Gaussian distribution, but that's usually not the best initialization. Pytorch has implemented a set of initialization methods. They could be found [here](https://pytorch.org/docs/stable/nn.init.html). For LSTM, it is recommended to use `nn.init.orthogonal_()` to initialize weights, to use `nn.init.zeros_()` to initialize all the biases except that of the forget gates, and to use `nn.init.zeros_()` to initialize the bias of forget gates. To initialize the bias of forget gates will help LSTM learn long-term dependency.
 
 According to an [issue on Github](https://github.com/pytorch/pytorch/issues/750), `ih` and `hh` are identical, hence they should be operated in the same way.
 
-The complete code are as follows:
+The complete codes are as follows:
 ```python
 lstm = nn.LSTM(input_size, hidden_size)
 
