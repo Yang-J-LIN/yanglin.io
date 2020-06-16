@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Undergraduate
+role: Doctoral Assistant
 
 # Organizations/Affiliations
 organizations:
-- name: Shanghai Jiao Tong University
+- name: École polytechnique fédérale de Lausanne
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
