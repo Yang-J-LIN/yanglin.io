@@ -27,9 +27,9 @@ interests:
 
 education:
   courses:
-  - course: BSc in Automation
+  - course: BE in Automation
     institution: Shanghai Jiao Tong University
-    year: 2020(expected)
+    year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -64,4 +64,4 @@ user_groups:
 - Visitors
 ---
 
-I am an undergraduate student at Department of Automation at Shanghai Jiao Tong University. My research interests include bioinformatics, natural language processing, computer vision and machine learning. Now I am working as a student intern in Lab of Pattern Recognition and Bioinformatics at Shanghai Jiao Tong University. I am going to École polytechnique fédérale de Lausanne and join Prof. [Patrick Barth](https://www.epfl.ch/labs/barth-lab/)'s lab as a PhD student in the fall.
+I just graduated from Shanghai Jiao Tong University. My research interests include bioinformatics, natural language processing, computer vision and machine learning. Now I am working as a student intern in Lab of Pattern Recognition and Bioinformatics at Shanghai Jiao Tong University. I am going to École polytechnique fédérale de Lausanne and join Prof. [Patrick Barth](https://www.epfl.ch/labs/barth-lab/)'s lab as a PhD student in the fall.
