@@ -21,13 +21,16 @@ organizations:
 bio: The fate of our times is characterized by rationalization and intellectualization and, above all, by the disenchantment of the world.
 
 interests:
-- Bioinformatics
-- Computer Vision
+- Protein structure prediction
+- Drug discovery
 - Machine Learning
 
 education:
   courses:
-  - course: BE in Automation
+  - course: Doctor of Philosophy
+    institution: École polytechnique fédérale de Lausanne
+    year: in progress
+  - course: Bachelor of Engineering
     institution: Shanghai Jiao Tong University
     year: 2020
 
