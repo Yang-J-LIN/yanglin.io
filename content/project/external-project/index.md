@@ -6,7 +6,7 @@ tags:
 date: "2019-11-07T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://github.com/Yang-J-LIN/lncLocator_v2.0
+external_link: http://www.csbio.sjtu.edu.cn/bioinf/lncLocator2/
 
 image:
   caption: Subcellular location of RNAs.
