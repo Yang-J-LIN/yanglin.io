@@ -27,10 +27,10 @@ interests:
 
 education:
   courses:
-  - course: Doctor of Philosophy
+  - course: Ph.D.
     institution: École polytechnique fédérale de Lausanne
     year: in progress
-  - course: Bachelor of Engineering
+  - course: B. Eng.
     institution: Shanghai Jiao Tong University
     year: 2020
 
@@ -58,7 +58,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "weberjlam@gmail.com"
+email: "yang.lin@epfl.ch"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
