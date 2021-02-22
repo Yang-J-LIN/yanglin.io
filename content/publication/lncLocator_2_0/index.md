@@ -21,7 +21,7 @@ publication_types: ["2"]
 publication: "Bioinformatics"
 publication_short: ""
 
-abstract: In this study, we present an updated cell-line-specific predictor lncLocator 2.0, which trains an end-to-end deep model per cell line, for predicting lncRNA subcellular localization from sequences.We first construct benchmark datasets of lncRNA  subcellular localizations for 15 cell lines. Then we learn word embeddings using natural language models, and these learned embeddings are fed into convolutional neural network, long short-term memory and multilayer perceptron to classify subcellular localizations. lncLocator 2.0 achieves varying effectiveness for different cell lines and demonstrates the necessity of training cell-line-specific models. Furthermore, we adopt Integrated Gradients to explain the proposed model in lncLocator 2.0, and find some potential patterns that determine the subcellular localizations of lncRNAs, suggesting that the subcellular localization of lncRNAs is linked to some specific nucleotides.
+abstract: "In this study, we present an updated cell-line-specific predictor lncLocator 2.0, which trains an end-to-end deep model per cell line, for predicting lncRNA subcellular localization from sequences.We first construct benchmark datasets of lncRNA  subcellular localizations for 15 cell lines. Then we learn word embeddings using natural language models, and these learned embeddings are fed into convolutional neural network, long short-term memory and multilayer perceptron to classify subcellular localizations. lncLocator 2.0 achieves varying effectiveness for different cell lines and demonstrates the necessity of training cell-line-specific models. Furthermore, we adopt Integrated Gradients to explain the proposed model in lncLocator 2.0, and find some potential patterns that determine the subcellular localizations of lncRNAs, suggesting that the subcellular localization of lncRNAs is linked to some specific nucleotides."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -64,7 +64,7 @@ projects: []
 slides: ""
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
@@ -72,4 +72,4 @@ Click the *Cite* button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
